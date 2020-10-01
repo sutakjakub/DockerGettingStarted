@@ -6,19 +6,19 @@ Getting started with docker.
 
 Sample from: https://docs.microsoft.com/cs-cz/dotnet/core/docker/build-container?tabs=windows
 
-1. ### **Sample1_netcore_console**
+### 1. **Sample1_netcore_console**
 
    _Sample from: https://docs.microsoft.com/cs-cz/dotnet/core/docker/build-container?tabs=windows_
 
-    1. Creates new console app called NetCore.Docker:
+   #### 1. Creates new console app called NetCore.Docker:
   
     `dotnet new console -o App -n NetCore.Docker`
 
-    2. Creates image from Dockerfile:
+   #### 2. Creates image from Dockerfile:
   
     `docker build -t counter-image -f Dockerfile .`
 
-    3. Show docker images: 
+   #### 3. Show docker images: 
   
     `docker images`
 
