@@ -4,9 +4,15 @@ Getting started with docker.
 ## Prereq
 > netcore 3.1 sdk (windows): https://dotnet.microsoft.com/download/dotnet-core/3.1
 
-1. Sample1_netcore_console
 Sample from: https://docs.microsoft.com/cs-cz/dotnet/core/docker/build-container?tabs=windows
-  1. Creates new console app called NetCore.Docker: `dotnet new console -o App -n NetCore.Docker` 
+
+1. Sample1_netcore_console
+
+   Sample from: https://docs.microsoft.com/cs-cz/dotnet/core/docker/build-container?tabs=windows   
+
+  1. Creates new console app called NetCore.Docker:
+  
+  `dotnet new console -o App -n NetCore.Docker` 
   2. Creates image from Dockerfile: `docker build -t counter-image -f Dockerfile .`
   3. Show docker images: `docker images`
   4. Creates container: `docker create --name core-counter counter-image`
