@@ -4,9 +4,7 @@ Getting started with docker.
 ## Prereq
 > netcore 3.1 sdk (windows): https://dotnet.microsoft.com/download/dotnet-core/3.1
 
-Sample from: https://docs.microsoft.com/cs-cz/dotnet/core/docker/build-container?tabs=windows
-
-### Sample1_netcore_console
+## Sample1_netcore_console
 
 _Sample from: https://docs.microsoft.com/cs-cz/dotnet/core/docker/build-container?tabs=windows_
 
