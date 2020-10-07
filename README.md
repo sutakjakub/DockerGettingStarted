@@ -6,7 +6,7 @@ Getting started with docker.
 
 ## Sample1_netcore_console
 
-_Sample from: https://docs.microsoft.com/cs-cz/dotnet/core/docker/build-container?tabs=windows_
+_Tutorial from: https://docs.microsoft.com/cs-cz/dotnet/core/docker/build-container?tabs=windows_
 
 #### 1. Creates new console app called NetCore.Docker:
   
@@ -47,3 +47,9 @@ _Sample from: https://docs.microsoft.com/cs-cz/dotnet/core/docker/build-containe
 #### 10. Starts container without attaching with parameter. After stop container will be deleted. 
   
 `docker run -it --rm counter-image 3`
+
+## Sample2_aspnetcore_from_repo
+
+_Tutorial from: https://docs.microsoft.com/cs-cz/dotnet/core/docker/build-container?tabs=windows_
+
+If command `docker exec aspnetcore_sample ipconfig` not working for you (_OCI runtime exec failed: exec failed: container_linux.go:295: starting container process caused "exec: \"ipconfig\": executable file not found in $PATH": unknown_) then be sure that have switching docker for windows container. You do this in the docker settings that run in windows as service.
