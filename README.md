@@ -52,4 +52,4 @@ _Tutorial from: https://docs.microsoft.com/cs-cz/dotnet/core/docker/build-contai
 
 _Tutorial from: https://docs.microsoft.com/cs-cz/dotnet/core/docker/build-container?tabs=windows_
 
-If command `docker exec aspnetcore_sample ipconfig` is not working for you (_OCI runtime exec failed: exec failed: container_linux.go:295: starting container process caused "exec: \"ipconfig\": executable file not found in $PATH": unknown_) then be sure that you have set "switching to Windows container". You do this in the docker settings that run in windows as service.
+If command `docker exec aspnetcore_sample ipconfig` is not working for you (_OCI runtime exec failed: exec failed: container_linux.go:295: starting container process caused "exec: \"ipconfig\": executable file not found in $PATH": unknown_) then be sure that you have set "switching to Windows container". You do this in the docker settings that run in windows as a service.
